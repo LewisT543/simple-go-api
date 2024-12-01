@@ -1,0 +1,34 @@
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+*.iws
+
+# Go module files
+go.sum
+
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+
+# Build artifacts
+bin/
+build/
+
+# Test output
+*.test
+
+# Dependency directories (if vendoring is used)
+vendor/
+
+# Logs
+*.log
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Optional: Ignore coverage profiles generated during tests
+coverage.out
